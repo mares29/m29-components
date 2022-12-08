@@ -12,7 +12,7 @@ export class M29OfflineAlert {
   @Prop() rounded: boolean = false;
   @Prop() pulse: boolean = false;
 
-  @State() online: boolean = false;
+  @State() online: boolean = true;
 
   @Listen('online', { target: 'window' })
   handleOnline() {
