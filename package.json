@@ -1,7 +1,7 @@
 {
   "name": "m29-components",
   "version": "0.0.1",
-  "description": "m29 components",
+  "description": "m29 components library",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
@@ -12,7 +12,7 @@
   "unpkg": "dist/m29-components/m29-components.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "https://github.com/mares29/m29-components"
   },
   "files": [
     "dist/",
