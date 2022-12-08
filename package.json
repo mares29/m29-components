@@ -2,6 +2,7 @@
   "name": "m29-components",
   "version": "0.0.1",
   "description": "m29 components library",
+  "author": "Karel Mareš <dev@m29.cz>",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
