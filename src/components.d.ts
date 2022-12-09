@@ -7,7 +7,9 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface M29OfflineAlert {
+        "backdrop": boolean;
         "description": string;
+        "icon": boolean;
         "message": string;
         "pulse": boolean;
         "rounded": boolean;
@@ -26,7 +28,9 @@ declare global {
 }
 declare namespace LocalJSX {
     interface M29OfflineAlert {
+        "backdrop"?: boolean;
         "description"?: string;
+        "icon"?: boolean;
         "message"?: string;
         "pulse"?: boolean;
         "rounded"?: boolean;
